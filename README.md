@@ -33,7 +33,7 @@ The optimized version demonstrated a **~4.63x speedup** over the non-optimized v
 
 ---
 
-## 🛠️ Compilation & Execution
+## Compilation & Execution
 
 ### Compile Non-Optimized Version
 
@@ -63,28 +63,14 @@ g++ -O3 -mavx2 -o optimized optimized.cpp
 
 ---
 
-## References
-
-- [LU Decomposition – Tutorialspoint](https://www.tutorialspoint.com/cplusplus-program-to-perform-lu-decomposition-of-any-matrix)
-- AVX2 Intrinsics: Intel / GCC documentation
-
----
-
-## 🧑‍💻 Author
-
-**Gauri Shashank Moghe**  
-Graduate Student – Computer Science  
-Specialized in AI, ML, and High-Performance Computing  
-
----
-
-## 🙌 Credits
+## Credits
 
 **Developed by**: Gauri Shashank Moghe  
-**Dataset Source**: [Kaggle - Lung and Colon Cancer Histopathological Images](https://www.kaggle.com/datasets/andrewmvd/lung-and-colon-cancer-histopathological-images)
+**Dataset Source**: [LU Decomposition – Tutorialspoint](https://www.tutorialspoint.com/cplusplus-program-to-perform-lu-decomposition-of-any-matrix)
+**AVX2 Intrinsics**: Intel / GCC documentation 
 
 ---
 
-## 📄 License
+## License
 
 This project is released under the [MIT License](https://opensource.org/licenses/MIT).
