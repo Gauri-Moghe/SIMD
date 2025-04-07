@@ -1,5 +1,5 @@
 
-# SIMD - LU Decomposition Optimization
+# LU Decomposition Optimization
 
 This project demonstrates how Single Instruction, Multiple Data (SIMD) techniques using AVX2 intrinsics can significantly accelerate LU Decomposition of large matrices in C++.
 
