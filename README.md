@@ -5,7 +5,7 @@ This project demonstrates how Single Instruction, Multiple Data (SIMD) technique
 
 ---
 
-## 📌 Overview
+## Overview
 
 LU Decomposition breaks a square matrix **A** into:
 - Lower triangular matrix **L**
@@ -17,7 +17,7 @@ This repo compares two implementations:
 
 ---
 
-## 📁 Files
+## Files
 
 | File                | Description |
 |---------------------|-------------|
@@ -27,7 +27,7 @@ This repo compares two implementations:
 
 ---
 
-## 🚀 Performance
+## Performance
 
 The optimized version demonstrated a **~4.63x speedup** over the non-optimized version on a 4000x4000 matrix.
 
@@ -35,14 +35,14 @@ The optimized version demonstrated a **~4.63x speedup** over the non-optimized v
 
 ## 🛠️ Compilation & Execution
 
-### ✅ Compile Non-Optimized Version
+### Compile Non-Optimized Version
 
 ```bash
 g++ -O3 -o non_optimized non_optimized.cpp
 ./non_optimized
 ```
 
-### ⚡ Compile SIMD-Optimized Version
+### Compile SIMD-Optimized Version
 
 Requires a compiler that supports AVX2 (e.g., GCC):
 
@@ -53,7 +53,7 @@ g++ -O3 -mavx2 -o optimized optimized.cpp
 
 ---
 
-## 📊 SIMD Techniques Used
+## SIMD Techniques Used
 
 - AVX2 Intrinsics (`<immintrin.h>`)
 - 256-bit registers (`__m256`)
@@ -63,7 +63,7 @@ g++ -O3 -mavx2 -o optimized optimized.cpp
 
 ---
 
-## 📚 References
+## References
 
 - [LU Decomposition – Tutorialspoint](https://www.tutorialspoint.com/cplusplus-program-to-perform-lu-decomposition-of-any-matrix)
 - AVX2 Intrinsics: Intel / GCC documentation
