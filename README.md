@@ -3,7 +3,6 @@
 
 This project demonstrates how Single Instruction, Multiple Data (SIMD) techniques using AVX2 intrinsics can significantly accelerate LU Decomposition of large matrices in C++.
 
----
 
 ## Overview
 
@@ -15,7 +14,6 @@ This repo compares two implementations:
 - **Non-Optimized**: Traditional nested loop approach
 - **SIMD-Optimized**: Uses AVX2 intrinsics for parallel processing
 
----
 
 ## Files
 
@@ -25,13 +23,13 @@ This repo compares two implementations:
 | `optimized.cpp`     | SIMD-accelerated LU decomposition using AVX2 intrinsics |
 | `SIMD_report.pdf`   | Report explaining the algorithm, optimizations, and achieved speedup |
 
----
+
 
 ## Performance
 
 The optimized version demonstrated a **~4.63x speedup** over the non-optimized version on a 4000x4000 matrix.
 
----
+
 
 ## Compilation & Execution
 
@@ -51,7 +49,6 @@ g++ -O3 -mavx2 -o optimized optimized.cpp
 ./optimized
 ```
 
----
 
 ## SIMD Techniques Used
 
@@ -61,15 +58,15 @@ g++ -O3 -mavx2 -o optimized optimized.cpp
 - Loop unrolling for performance
 - Targeted compile flags for hardware acceleration
 
----
+
 
 ## Credits
 
 **Developed by**: Gauri Shashank Moghe  
-**Dataset Source**: [LU Decomposition – Tutorialspoint](https://www.tutorialspoint.com/cplusplus-program-to-perform-lu-decomposition-of-any-matrix)
+**Dataset Source**: [LU Decomposition – Tutorialspoint](https://www.tutorialspoint.com/cplusplus-program-to-perform-lu-decomposition-of-any-matrix)  
 **AVX2 Intrinsics**: Intel / GCC documentation 
 
----
+
 
 ## License
 
