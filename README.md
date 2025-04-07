@@ -33,14 +33,14 @@ The optimized version demonstrated a **~4.63x speedup** over the non-optimized v
 
 ## Compilation & Execution
 
-### Compile Non-Optimized Version
+### Compile - Original Version
 
 ```bash
 g++ -O3 -o non_optimized non_optimized.cpp
 ./non_optimized
 ```
 
-### Compile SIMD-Optimized Version
+### Compile SIMD - Optimized Version
 
 Requires a compiler that supports AVX2 (e.g., GCC):
 
@@ -63,7 +63,7 @@ g++ -O3 -mavx2 -o optimized optimized.cpp
 ## Credits
 
 **Developed by**: Gauri Shashank Moghe  
-**Dataset Source**: [LU Decomposition – Tutorialspoint](https://www.tutorialspoint.com/cplusplus-program-to-perform-lu-decomposition-of-any-matrix)  
+**Algorithm Source**: [LU Decomposition – Tutorialspoint](https://www.tutorialspoint.com/cplusplus-program-to-perform-lu-decomposition-of-any-matrix)  
 **AVX2 Intrinsics**: Intel / GCC documentation 
 
 
