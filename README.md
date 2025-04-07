@@ -75,3 +75,16 @@ g++ -O3 -mavx2 -o optimized optimized.cpp
 **Gauri Shashank Moghe**  
 Graduate Student – Computer Science  
 Specialized in AI, ML, and High-Performance Computing  
+
+---
+
+## 🙌 Credits
+
+**Developed by**: Gauri Shashank Moghe  
+**Dataset Source**: [Kaggle - Lung and Colon Cancer Histopathological Images](https://www.kaggle.com/datasets/andrewmvd/lung-and-colon-cancer-histopathological-images)
+
+---
+
+## 📄 License
+
+This project is released under the [MIT License](https://opensource.org/licenses/MIT).
